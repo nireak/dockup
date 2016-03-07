@@ -15,4 +15,4 @@ then
 fi
 
 # Upload the backup to S3 with timestamp
-aws s3 --region $AWS_DEFAULT_REGION cp $tarball s3://$S3_BUCKET_NAMES$S3_PATH_NAME$tarball
+aws s3 --region $AWS_DEFAULT_REGION cp $tarball s3://$S3_BUCKET_NAME$S3_PATH_NAME$tarball
