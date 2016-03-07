@@ -43,6 +43,7 @@ AWS_DEFAULT_REGION=us-east-1
 BACKUP_NAME=mysql
 PATHS_TO_BACKUP=/etc/mysql /var/lib/mysql
 S3_BUCKET_NAME=docker-backups.example.com
+S3_PATH_NAME=/
 RESTORE=false
 ```
 
