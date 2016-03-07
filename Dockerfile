@@ -9,6 +9,7 @@ ADD run.sh /run.sh
 RUN chmod 755 /*.sh
 
 ENV S3_BUCKET_NAME docker-backups.example.com
+ENV S3_PATH_NAME /
 ENV AWS_ACCESS_KEY_ID **DefineMe**
 ENV AWS_SECRET_ACCESS_KEY **DefineMe**
 ENV AWS_DEFAULT_REGION us-east-1
